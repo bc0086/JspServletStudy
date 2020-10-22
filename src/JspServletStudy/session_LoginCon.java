@@ -23,7 +23,7 @@ public class session_LoginCon extends HttpServlet {
 		out.print("mID : " + mID);
 		out.print("mPW : " + mPW);
 		
-		// session은 request객체로부터 얻어 낼 수 있다.
+		// session은 request객체로부터 얻어 낼 수 있다..
 		// session은 HttpSession인터페이스를 통해서 담는다.
 		HttpSession session = request.getSession();
 		session.setAttribute("memberId", mID);
