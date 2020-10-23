@@ -37,4 +37,15 @@
     <param-name>realServerIP</param-name>
     <param-value>68.0.30.1</param-value>
   </context-param>
+  
+  <!-- filter 등록 -->
+  <filter>
+  	<filter-name>tempFilter</filter-name>
+  	<filter-class>JspServlet.encodingTempFilter</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>tempFilter</filter-name>
+  	<url-pattern>/*</url-pattern>
+  		<!-- 서버에 들어오는 모든 요청은 해당 필터를 거치게 된다. -->
+  </filter-mapping>
 </web-app>

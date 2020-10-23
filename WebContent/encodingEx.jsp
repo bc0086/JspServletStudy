@@ -18,7 +18,8 @@ $(function(){
 <body>
 	<!-- <form action="encodingSignUp.jsp" method="post"> -->
 	<form action="encodingSignUp.jsp" method="get">
-	<!-- get방식일때는 server.xml에서 수정하자. -->
+		<!-- get방식일때는 server.xml에서 수정하자. -->
+		
 		이름 : <input type="text" name="m_name" /> <br />
 		별명 : <input type="text" name="m_nickname" /> <br />
 		<input type="submit" value="sign up" />
