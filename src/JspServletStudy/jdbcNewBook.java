@@ -25,8 +25,8 @@ public class jdbcNewBook extends HttpServlet {
 		// 데이터베이스를 사용하기 위한 코드 
 		String driver = "oracle.jdbc.driver.OracleDriver";
 		String url = "jdbc:oracle:thin:@localhost:1521:xe";
-		String id = "scott";
-		String pw = "tiger";
+		String id = "kosmo";
+		String pw = "1234 ";
 		
 		Connection con = null;
 		Statement stmt = null;
