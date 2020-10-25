@@ -33,6 +33,7 @@ public class jdbcModifyBook extends HttpServlet {
 			
 			con = DriverManager.getConnection(url, id, pw);
 			String sql = "update book set book_loc = ? where book_name = ?";
+				// statement와는 순서가 다름.
 			
 			pstmt = con.prepareStatement(sql);
 			pstmt.setString(1, "001-00007123");
