@@ -1,2 +1,2 @@
 # JspServletStudy
-JspServlet Review
+Jsp, Servlet Review
