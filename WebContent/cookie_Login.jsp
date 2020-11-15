@@ -16,7 +16,7 @@ $(function(){
 </script>
 </head>
 <body>
-	<!-- 로그인 들어갔을시 쿠키가 있으면 또 로그인 시키면 안된다. -->
+	<!-- 로그인 들어갔을시 쿠키가 있으면 또 로그인 시키면 안된다 -->
 	<%
 	Cookie[] cookies = request.getCookies();
 	System.out.println("cookies : " + cookies);
