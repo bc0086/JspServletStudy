@@ -1,2 +1,2 @@
 # JspServletStudy
-Jsp, Servlet Review
+인프런 강의
