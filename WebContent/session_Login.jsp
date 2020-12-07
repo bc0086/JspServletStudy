@@ -16,7 +16,7 @@ $(function(){
 </script>
 </head>
 <body>
-	<!-- 기존의 세션 유무 -->
+	<!-- 기존의 세션 유무 확인하기 -->
 	<%
 		if(session.getAttribute("memberId") != null)
 			response.sendRedirect("session_LoginOk.jsp");
